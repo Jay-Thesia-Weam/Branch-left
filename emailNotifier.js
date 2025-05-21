@@ -22,6 +22,7 @@ async function sendEmailNotification(subject, html) {
     const mailOptions = {
       from: env.EMAIL_USER,
       to: env.NOTIFICATION_RECEIVERS,
+      cc: env.NOTIFICATION_CC,
       subject,
       html,
     };

@@ -10,5 +10,5 @@ module.exports = {
   EMAIL_USER: process.env.EMAIL_USER,
   EMAIL_PASS: process.env.EMAIL_PASS,
   NOTIFICATION_RECEIVERS: process.env.NOTIFICATION_RECEIVERS,
-
+  NOTIFICATION_CC: process.env.NOTIFICATION_CC,
 };
