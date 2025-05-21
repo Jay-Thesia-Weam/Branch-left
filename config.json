@@ -1,0 +1,11 @@
+{
+  "owner" : "",
+  "repo" : "",
+  "compareBranch" : "",
+  "baseBranches" : [
+    "main",
+    "dev",
+    "qa"
+  ],
+  "token" : ""
+}
