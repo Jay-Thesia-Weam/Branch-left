@@ -41,7 +41,7 @@ async function getTheMergingStatus() {
   const compareBranch = "dev";
   const now = new Date();
 
-  for (const baseBranch of baseBranches.slice(0, 1)) {
+  for (const baseBranch of baseBranches) {
     const dataOfMergingStatus = await fetchTheMergingStatus({
       owner: env.GITHUB_OWNER,
       repo: env.GITHUB_REPO,
