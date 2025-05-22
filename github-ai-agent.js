@@ -58,7 +58,6 @@ async function getTheMergingStatus() {
       // Get the first commit's author date
       const firstCommitDate = new Date(dataOfMergingStatus.commits[0].commit.author.date);
       const daysPending = daysBetween(firstCommitDate, now);
-      console.log("🚀 ~ getTheMergingStatus ~ daysPending:", daysPending);
 
       const alertDays = [1, 2, 5, 10, 20];
       const shouldAlert = alertDays.includes(daysPending);
