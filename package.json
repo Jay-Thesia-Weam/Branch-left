@@ -1,0 +1,18 @@
+{
+  "name": "github-merge-inspector",
+  "version": "1.0.0",
+  "description": "A LangChain agent for inspecting GitHub branch merge status",
+  "main": "github-ai-agent.js",
+  "scripts": {
+    "start": "node github-ai-agent.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.1.48",
+    "@langchain/openai": "^0.0.14",
+    "axios": "^1.6.0",
+    "dotenv": "^16.4.1",
+    "openai": "^4.0.0",
+    "nodemailer": "^6.9.10"
+  }
+} 
